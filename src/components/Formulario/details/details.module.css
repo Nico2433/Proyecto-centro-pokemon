@@ -1,0 +1,78 @@
+.formDetails {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    border-radius: var(--rounded-border-medium);
+    box-shadow: var(--menu-box-shadow);
+}
+
+.detailsHeader {
+    background-color: var(--main-color);
+    color: var(--alter-color);
+    border-radius: var(--rounded-border-medium) var(--rounded-border-medium) 0px 0px;
+    width: 100%;
+}
+
+.detailsTrainer {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+}
+
+.detailsSections {
+    display: flex;
+    flex-direction: column;
+}
+
+.detailsSection {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sectionTitle {
+    color: blue;
+    margin: 10px 0px;
+}
+
+.detailsFields {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-self: flex-start;
+    justify-self: flex-start;
+    gap: 20px;
+    height: 350px;
+    width: 100%;
+}
+
+.pokemonSpecieContainer {
+    align-self: center;
+    text-align: center;
+    height: 185px;
+}
+
+.pokemonImg {
+    width: 150px;
+}
+
+.pokemonSpecie {}
+
+.btn {
+    cursor: pointer;
+    align-self: center;
+    padding: 10px 30px;
+    color: var(--alter-color);
+    background-color: var(--main-color);
+    border: 1px solid var(--main-color);
+    border-radius: var(--rounded-border-medium);
+    font-family: "Pokemon", sans-serif;
+    font-weight: bold;
+}
+
+.btn:hover {
+    color: var(--main-color);
+    background-color: var(--alter-color);
+}

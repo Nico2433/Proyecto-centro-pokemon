@@ -1,0 +1,101 @@
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+
+:root {
+  --menu-box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  --input-box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  --main-color: #ed5564;
+  --alter-color: whitesmoke;
+  --rounded-border-small: 5px;
+  --rounded-border-medium: 10px;
+}
+
+
+@font-face {
+  font-family: "Pokemon";
+  src: url("/src/fonts/pokemon_solid-webfont.woff2") format("woff2"),
+    url("/src/fonts/pokemon_solid-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  background-color: whitesmoke;
+  font-family: "Pokemon", sans-serif;
+  letter-spacing: 4px;
+}
+
+.container {
+  width: 100%;
+  margin: 0 auto;
+  max-width: 1380px;
+}
+
+.row {
+  margin: 0 12px;
+}
+
+a {
+  color: inherit;
+  /* blue colors for links too */
+  text-decoration: inherit;
+  /* no underline */
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.App-header {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: whitesmoke;
+  background-image: url("/src/assets/background-image.png");
+  background-size: cover;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+h1 {
+  font-size: 3rem;
+  color: whitesmoke;
+  text-shadow: 5px 5px black;
+}
+
+.boton-ingreso {
+  text-decoration: none;
+  background-color: whitesmoke;
+  padding: 0.3rem 3rem;
+  border-radius: 10px;
+  color: #ed5564;
+  cursor: pointer;
+  text-shadow: 5px 5px lightgray;
+}
+
+.boton-ingreso:hover {
+  background-color: #ed5564;
+  color: whitesmoke;
+  text-shadow: 5px 5px darkgray;
+}

@@ -1,0 +1,62 @@
+.pokemonListContainer {
+    box-shadow: var(--menu-box-shadow);
+    border-radius: var(--rounded-border-medium);
+    background-color: var(--alter-color);
+    padding: 10px;
+    position: absolute;
+    z-index: 1;
+    width: 500px;
+    height: 350px;
+}
+
+.pokemonListHeader {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.pokemonListTitle {}
+
+.pageInput {
+    border-radius: var(--rounded-border-small);
+    border: solid 1px var(--main-color);
+    outline: none;
+    padding: 5px;
+    text-align: center;
+    width: 25%;
+}
+
+.pokemonList {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: center;
+    justify-items: center;
+    height: 240px;
+}
+
+.pokemonImage {
+    width: 80px;
+}
+
+.btnContainer {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    gap: 25%;
+}
+
+.btn {
+    cursor: pointer;
+    padding: 5px 20px;
+    border: 1px solid var(--main-color);
+    border-radius: var(--rounded-border-small);
+    background-color: var(--main-color);
+    color: var(--alter-color);
+    font-family: "Pokemon", sans-serif;
+}
+
+.btn:hover {
+    background-color: var(--alter-color);
+    color: var(--main-color);
+}

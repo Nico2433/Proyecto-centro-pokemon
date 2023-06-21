@@ -1,0 +1,79 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5rem 2rem;
+    padding-right: 4rem;
+    background-color: #ed5564;
+    color: whitesmoke;
+    font-weight: bold;
+    font-family: "Pokemon", sans-serif;
+}
+
+.header div {
+    display: flex;
+    align-items: center;
+}
+
+.header img {
+    width: 50px;
+    margin-right: 3rem;
+}
+
+.form {
+    color: #ed5564;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+    padding-bottom: 3rem;
+    margin-top: 2rem;
+}
+
+.formHeader {
+    text-align: center;
+}
+
+.formBody {
+    display: flex;
+    margin: 20px;
+    gap: 100px;
+}
+
+.formInputs {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.sectionHeader {
+    color: blue;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.sectionName {
+    display: flex;
+    align-items: center;
+}
+
+.sectionImg {
+    width: 50px;
+    margin-right: 1rem;
+}
+
+.btn {
+    cursor: pointer;
+    padding: 10px 20px;
+    border: 1px solid var(--main-color);
+    border-radius: var(--rounded-border-small);
+    background-color: var(--main-color);
+    color: var(--alter-color);
+    font-family: "Pokemon", sans-serif;
+}
+
+.btn:hover {
+    background-color: var(--alter-color);
+    color: var(--main-color);
+}
